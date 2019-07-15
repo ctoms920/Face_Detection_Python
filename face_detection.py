@@ -1,6 +1,5 @@
 import cv2
 
-
 face_cascade = cv2.CascadeClassifier("C:\\Users\Cyril Tom Mathew\Desktop\haarcascade_frontalface_default.xml")
 image = cv2.imread("C:\\Users\Cyril Tom Mathew\Desktop\ggg.jpg")
 gray_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
